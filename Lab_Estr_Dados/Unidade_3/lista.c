@@ -7,31 +7,31 @@ struct lista {
     struct lista* prox;
 };
 
-Lista* cria_lst(void){
+Lista* cria_lst(void) {
     return(NULL);
 }
 
-Lista* insere_lst(Lista* l, int i){
+Lista* insere_lst(Lista* l, int i) {
     Lista* novo = (Lista*) malloc(sizeof(Lista));
     novo->info = i;
     novo->prox = l;
     return(novo);
 }
 
-void imprime_lst(Lista* l){
+void imprime_lst(Lista* l) {
     Lista* p;
     for(p = l; p != NULL; p = p->prox)
         printf("info = %d \n", p->info);
 }
 
-int lst_vazia(Lista* l){
+int lst_vazia(Lista* l) {
     if(l == NULL)
         return(1);
     else
         return(0);
 }
 
-Lista* lst_busca(Lista* l, int v){
+Lista* lst_busca(Lista* l, int v) {
     Lista* p;
 
     for(p = l; p != NULL; p = p->prox) {
@@ -44,7 +44,7 @@ Lista* lst_busca(Lista* l, int v){
     return(NULL);
 }
 
-Lista* retira_lst(Lista* l, int v){
+Lista* retira_lst(Lista* l, int v) {
     Lista* ant = NULL;
     Lista* p = l;
 
@@ -78,5 +78,9 @@ void libera_lst(Lista* l) {
         free(p);
         p = t;
     }
+
+}
+
+int maiores(Lista* l, int n) {
 
 }
