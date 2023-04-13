@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lista.h"
 
 struct lista {
     int info;
     struct lista* prox;
 };
-typedef struct lista Lista;
 
 Lista* cria_lst(void){
     return(NULL);
@@ -44,17 +44,17 @@ Lista* lst_busca(Lista* l, int v){
     return(NULL);
 }
 
-Lista* lst_retira(Lista* l, int v){
+Lista* retira_lst(Lista* l, int v){
     Lista* ant = NULL;
     Lista* p = l;
 
     while(p != NULL && p->info != v) {
         ant = p;
-        p = p-> prox;
+        p = p->prox;
     }
 
     if(p == NULL) {
-        return(1);
+        return(l);  
     }
 
     if(ant == NULL) {
