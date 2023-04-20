@@ -81,6 +81,3 @@ void libera_lst(Lista* l) {
 
 }
 
-int maiores(Lista* l, int n) {
-
-}
