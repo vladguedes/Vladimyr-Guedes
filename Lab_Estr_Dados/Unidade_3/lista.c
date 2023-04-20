@@ -81,3 +81,26 @@ void libera_lst(Lista* l) {
 
 }
 
+int num_nos(Lista* l, int n) {
+    Lista* p = l;
+    int qnt = 0;
+
+    while(p != NULL) {
+
+        if(p->info > n)
+            qnt++;
+
+        p = p->prox;
+    }
+
+    return(qnt);
+}
+
+Lista* ultimo(Lista* l) {
+    Lista* p = l;
+
+    while(p->prox != NULL) 
+        p = p->prox;
+    
+    return(p);
+}
