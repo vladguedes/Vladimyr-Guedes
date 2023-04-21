@@ -31,7 +31,7 @@ int lst_vazia(Lista* l) {
         return(0);
 }
 
-Lista* lst_busca(Lista* l, int v) {
+Lista* busca_lst(Lista* l, int v) {
     Lista* p;
 
     for(p = l; p != NULL; p = p->prox) {
