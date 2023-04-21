@@ -19,88 +19,96 @@ Lista* insere_lst(Lista* l, int i) {
 }
 
 void imprime_lst(Lista* l) {
-    Lista* p;
-    for(p = l; p != NULL; p = p->prox)
-        printf("info = %d \n", p->info);
+    Lista* pro;
+    for(pro = l; pro != NULL; pro = pro->prox)
+        printf("info = %d \n", pro->info);
 }
 
-int lst_vazia(Lista* l) {
+void lst_vazia(Lista* l) {
     if(l == NULL)
-        return(1);
-    else
-        return(0);
+        exit(1);
 }
 
 Lista* busca_lst(Lista* l, int v) {
-    Lista* p;
+    Lista* pro;
 
-    for(p = l; p != NULL; p = p->prox) {
-
-        if(p->info == v)
-            return(p);
-
-    }
+    for(pro = l; pro != NULL; pro = pro->prox) 
+        if(pro->info == v)
+            return(pro);
 
     return(NULL);
 }
 
 Lista* retira_lst(Lista* l, int v) {
     Lista* ant = NULL;
-    Lista* p = l;
+    Lista* pro = l;
 
-    while(p != NULL && p->info != v) {
-        ant = p;
-        p = p->prox;
+    while(pro != NULL && pro->info != v) {
+        ant = pro;
+        pro = pro->prox;
     }
 
-    if(p == NULL) {
+    if(pro == NULL) {
         return(l);  
     }
 
     if(ant == NULL) {
-        l = p->prox;
+        l = pro->prox;
     }
 
     else {
-        ant->prox = p->prox;
+        ant->prox = pro->prox;
     }
 
-    free(p);
+    free(pro);
 
     return(l);
 }
 
 void libera_lst(Lista* l) {
-    Lista* p = l;
+    Lista* pro = l;
 
-    while(p != NULL) {
-        Lista* t = p->prox;
-        free(p);
-        p = t;
+    while(pro != NULL) {
+        Lista* t = pro->prox;
+        free(pro);
+        pro = t;
     }
 
 }
 
 int num_nos(Lista* l, int n) {
-    Lista* p = l;
+    Lista* pro = l;
     int qnt = 0;
 
-    while(p != NULL) {
+    while(pro != NULL) {
 
-        if(p->info > n)
+        if(pro->info > n)
             qnt++;
 
-        p = p->prox;
+        pro = pro->prox;
     }
 
     return(qnt);
 }
 
 Lista* ultimo(Lista* l) {
-    Lista* p = l;
+    Lista* pro = l;
 
-    while(p->prox != NULL) 
-        p = p->prox;
+    while(pro->prox != NULL) 
+        pro = pro->prox;
     
-    return(p);
+    return(pro);
+}
+
+Lista* concatena(Lista* l, Lista* p) {
+    Lista* g = l;
+
+    while(g != NULL) {
+        g = g->prox;
+
+        if(g->prox == NULL) 
+            g->prox = p;
+    }
+
+    return(g);
 }
