@@ -101,14 +101,16 @@ Lista* ultimo(Lista* l) {
 }
 
 Lista* concatena(Lista* l, Lista* p) {
-    Lista* g = l;
 
-    while(g != NULL) {
-        g = g->prox;
+    Lista* juntar;
 
-        if(g->prox == NULL) 
-            g->prox = p;
+    juntar = l;
+
+    while(juntar->prox != NULL) {
+        juntar = juntar->prox;
     }
 
-    return(g);
+    juntar->prox = p;
+
+    return(l);
 }
