@@ -147,7 +147,7 @@ sejam consideradas vizinhas. O código pode ser uma ferramenta útil para análi
 e planejamento urbano no estado do Rio Grande do Norte.
 
 ## CÓDIGO FONTE
-    [Link para repositório no GitHub:](https://github.com/caiomoises/graph_search).
+[Link para repositório no GitHub:](https://github.com/caiomoises/graph_search).
 
 ## CLONANDO O CÓDIGO
 o Abra o seu Visual Studio Code (caso não tenha instalado, faça download no link:
