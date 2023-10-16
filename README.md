@@ -51,7 +51,7 @@ Rio Grande do Norte. Ele lê informações de coordenadas geográficas (latitude
 nome de cidades a partir de arquivos CSV, calcula as distâncias entre todas as cidades e gera
 um grafo matricial que representa essas distâncias.
 
-    O código inclui funções para calcular a distância entre as cidades, identificar cidades
+O código inclui funções para calcular a distância entre as cidades, identificar cidades
 com mais vizinhos, encontrar cidades sem vizinhos, determinar a distância mínima para que
 todas as cidades sejam vizinhas e a distância máxima para que nenhuma cidade seja vizinha.
 
