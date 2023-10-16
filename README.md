@@ -72,12 +72,12 @@ cidades com mais vizinhos, cidades sem vizinhos e métricas de distância.
     - ‘printGrafoMatricial’: Imprime uma representação visual do grafo matricial.
 
 ## LOGICA PRINCIPAL
-    A lógica principal envolve a alocação de uma matriz, o cálculo de distâncias, a
+A lógica principal envolve a alocação de uma matriz, o cálculo de distâncias, a
 identificação de cidades com mais vizinhos e a análise de distâncias mínimas e máximas para
 estabelecer relações de vizinhança.
 
 ## TESTES E RESULTADOS
-    Foram realizados vários testes para verificar a funcionalidade do código e analisar as
+Foram realizados vários testes para verificar a funcionalidade do código e analisar as
 relações de vizinhança entre as cidades do estado do Rio Grande do Norte (RN) com base nas
 distâncias calculadas a partir das coordenadas GPS. Os testes envolveram diferentes valores de
 distância (D) para determinar as cidades vizinhas e aplicaram métricas para identificar as
@@ -104,7 +104,7 @@ de decisões urbanas e planejamento. Além disso, as métricas de distância for
 objetivos definidos e pode ser uma ferramenta útil para análises geoespaciais no estado do RN.
 
 ## DESAFIOS E SOLUÇÕES
-    Durante o desenvolvimento deste código, alguns desafios foram identificados e
+Durante o desenvolvimento deste código, alguns desafios foram identificados e
 superados para garantir que o grafo matricial das cidades vizinhas no RN fosse criado com
 precisão. Abaixo, destacamos os principais desafios encontrados e as soluções adotadas:
 
@@ -116,6 +116,7 @@ eficaz.
      Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arquivos
 CSV e transformar os dados em objetos Python. O código foi adaptado para interpretar as
 informações corretamente, convertendo strings em tipos de dados apropriados.
+
     2. Cálculo de Distâncias Geoespaciais:
 Graph Search Página 5
      Calcular a distância entre duas cidades com base nas coordenadas GPS foi um desafio,
@@ -124,8 +125,9 @@ geoespaciais.
      Solução: Implementamos uma função para calcular a distância geoespacial entre as
 cidades usando a fórmula da distância euclidiana no plano cartesiano. Esta solução permitiu a
 conversão de coordenadas GPS em distâncias em unidades padronizadas para comparação.
-    3. Construção do Grafo Matricial:
-     A construção do grafo matricial envolveu a criação de uma matriz que representasse
+
+    3. Construção do Grafo Matricial:    
+A construção do grafo matricial envolveu a criação de uma matriz que representasse
 as relações de vizinhança entre as cidades com base nas distâncias calculadas. Garantir que essa
 matriz fosse preenchida corretamente foi um desafio.
      Solução: Criamos uma função dedicada para preencher a matriz do grafo,
@@ -138,7 +140,7 @@ vizinhança entre as cidades no RN. O projeto foi concluído com sucesso, permit
 geoespaciais valiosas.
 
 ## CONCLUSÃO
-    Este código em Python permite a análise de relações de vizinhança entre cidades do RN
+Este código em Python permite a análise de relações de vizinhança entre cidades do RN
 com base em coordenadas geográficas. Ele fornece informações sobre cidades com mais
 vizinhos, cidades sem vizinhos e métricas de distância mínima e máxima para que as cidades
 sejam consideradas vizinhas. O código pode ser uma ferramenta útil para análises geoespaciais
@@ -148,22 +150,22 @@ e planejamento urbano no estado do Rio Grande do Norte.
     [Link para repositório no GitHub:](https://github.com/caiomoises/graph_search).
 
 ## CLONANDO O CÓDIGO
-    o Abra o seu Visual Studio Code (caso não tenha instalado, faça download no link:
+o Abra o seu Visual Studio Code (caso não tenha instalado, faça download no link:
 (https://code.visualstudio.com/download)
-    o Com o VsCode aberto, vá na opção ‘Terminal’ e ‘New Terminal’, com o
+o Com o VsCode aberto, vá na opção ‘Terminal’ e ‘New Terminal’, com o
 terminal aberto, configure o Git usando os seguintes comandos:
 Graph Search Página 6
-      ▪ git config --global user.name “seu nome aqui”
-      ▪ git config --global user.email “seu email aqui”
-    o Após o Git esta configurado, execute o seguinte comando para clonar o
+    ▪ git config --global user.name “seu nome aqui”
+    ▪ git config --global user.email “seu email aqui”
+o Após o Git esta configurado, execute o seguinte comando para clonar o
 repositório:
-      ▪ git clone https://github.com/caiomoises/collisionHash.git
-    o Depois disso, você terá acesso ao código fonte.
-    o Para executá-lo, abra novamente o terminal e digite os seguintes comandos:
-      ▪ gcc main.c -o main
-      ▪ ./main
-    o Após o código ser compilado siga os passos descritos no tópico ‘TESTES E RESULTADOS’
+    ▪ git clone https://github.com/caiomoises/collisionHash.git
+o Depois disso, você terá acesso ao código fonte.
+o Para executá-lo, abra novamente o terminal e digite os seguintes comandos:
+    ▪ gcc main.c -o main
+    ▪ ./main
+o Após o código ser compilado siga os passos descritos no tópico ‘TESTES E RESULTADOS’
 
 ## REFERÊNCIAS
-    o https://www.youtube.com/watch?v=4-1fG04nQGI
-    o https://www.youtube.com/watch?v=IzG9l_7GaZM 
+o https://www.youtube.com/watch?v=4-1fG04nQGI
+o https://www.youtube.com/watch?v=IzG9l_7GaZM 
