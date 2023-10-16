@@ -115,7 +115,8 @@ precisão. Abaixo, destacamos os principais desafios encontrados e as soluções
 a partir de arquivos CSV, que não estavam em um formato diretamente compatível com o
 Python. Para superar esse desafio, foi necessário analisar e tratar esses arquivos de maneira
 eficaz.
-     Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arquivos
+
+Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arquivos
 CSV e transformar os dados em objetos Python. O código foi adaptado para interpretar as
 informações corretamente, convertendo strings em tipos de dados apropriados.
 
@@ -124,7 +125,8 @@ Graph Search Página 5
      Calcular a distância entre duas cidades com base nas coordenadas GPS foi um desafio,
 pois envolveu cálculos matemáticos complexos para obter a distância em unidades
 geoespaciais.
-     Solução: Implementamos uma função para calcular a distância geoespacial entre as
+     
+Solução: Implementamos uma função para calcular a distância geoespacial entre as
 cidades usando a fórmula da distância euclidiana no plano cartesiano. Esta solução permitiu a
 conversão de coordenadas GPS em distâncias em unidades padronizadas para comparação.
 
@@ -132,7 +134,8 @@ conversão de coordenadas GPS em distâncias em unidades padronizadas para compa
 A construção do grafo matricial envolveu a criação de uma matriz que representasse
 as relações de vizinhança entre as cidades com base nas distâncias calculadas. Garantir que essa
 matriz fosse preenchida corretamente foi um desafio.
-     Solução: Criamos uma função dedicada para preencher a matriz do grafo,
+
+Solução: Criamos uma função dedicada para preencher a matriz do grafo,
 considerando as distâncias calculadas entre as cidades. Também definimos critérios claros para
 determinar quando duas cidades são vizinhas ou não com base na distância máxima
 especificada.
