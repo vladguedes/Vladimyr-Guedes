@@ -18,7 +18,7 @@
 
 ## INTRODUÇÃO
 
-    Este código tem como objetivo criar um grafo matricial das cidades no estado do Rio
+Este código tem como objetivo criar um grafo matricial das cidades no estado do Rio
 Grande do Norte (RN) com base nas coordenadas de latitude e longitude (GPS) de cada cidade.
 O grafo representa as relações de vizinhança entre as cidades, onde duas cidades são
 consideradas vizinhas se a distância entre elas for menor que um determinado valor
@@ -45,7 +45,7 @@ desenvolvimento e as soluções adotadas. No final, resumiremos o projeto e dest
 aprendizado obtido ao criar essa ferramenta de análise geoespacial no contexto do RN.
 
 ## DESCRIÇÃO GERAL DO CÓDIGO
-    O código é voltado para o processamento de dados relacionados a cidades do estado do
+O código é voltado para o processamento de dados relacionados a cidades do estado do
 Rio Grande do Norte. Ele lê informações de coordenadas geográficas (latitude e longitude) e
 nome de cidades a partir de arquivos CSV, calcula as distâncias entre todas as cidades e gera
 um grafo matricial que representa essas distâncias.
@@ -54,7 +54,7 @@ com mais vizinhos, encontrar cidades sem vizinhos, determinar a distância míni
 todas as cidades sejam vizinhas e a distância máxima para que nenhuma cidade seja vizinha.
 
 ## VISÃO GERAL
-    O código é dividido em várias funções, cada uma com uma tarefa específica. Ele começa
+O código é dividido em várias funções, cada uma com uma tarefa específica. Ele começa
 alocando uma matriz para representar o grafo e, em seguida, calcula a distância entre as cidades
 com base nas coordenadas geográficas. Depois, o código realiza várias análises para identificar
 cidades com mais vizinhos, cidades sem vizinhos e métricas de distância.
