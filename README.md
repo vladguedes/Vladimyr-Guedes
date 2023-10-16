@@ -88,7 +88,7 @@ cidades com mais vizinhos.
     Resultados dos Testes:
 
 - Teste 1: Identificação da Cidade com Mais Vizinhos
-    -- Distância (D) = 0.05
+    - Distância (D) = 0.05
     - Resultado: A cidade de Natal tem 7 vizinhos.
 - Teste 2: Identificação de Cidades Sem Vizinhos
     - Distância (D) = 0.2
@@ -112,35 +112,35 @@ superados para garantir que o grafo matricial das cidades vizinhas no RN fosse c
 precisão. Abaixo, destacamos os principais desafios encontrados e as soluções adotadas:
 
 #### 1. Leitura de Dados a partir de Arquivos CSV:
- Um dos principais desafios foi ler as informações das cidades e suas coordenadas GPS
+ - Um dos principais desafios foi ler as informações das cidades e suas coordenadas GPS
 a partir de arquivos CSV, que não estavam em um formato diretamente compatível com o
 Python. Para superar esse desafio, foi necessário analisar e tratar esses arquivos de maneira
 eficaz.
 
-Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arquivos
+- Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arquivos
 CSV e transformar os dados em objetos Python. O código foi adaptado para interpretar as
 informações corretamente, convertendo strings em tipos de dados apropriados.
 
 #### 2. Cálculo de Distâncias Geoespaciais:
-Graph Search Página 5
-     Calcular a distância entre duas cidades com base nas coordenadas GPS foi um desafio,
+- Graph Search Página 5
+- Calcular a distância entre duas cidades com base nas coordenadas GPS foi um desafio,
 pois envolveu cálculos matemáticos complexos para obter a distância em unidades
 geoespaciais.
      
-Solução: Implementamos uma função para calcular a distância geoespacial entre as
+- Solução: Implementamos uma função para calcular a distância geoespacial entre as
 cidades usando a fórmula da distância euclidiana no plano cartesiano. Esta solução permitiu a
 conversão de coordenadas GPS em distâncias em unidades padronizadas para comparação.
 
 #### 3. Construção do Grafo Matricial:    
-A construção do grafo matricial envolveu a criação de uma matriz que representasse
+- A construção do grafo matricial envolveu a criação de uma matriz que representasse
 as relações de vizinhança entre as cidades com base nas distâncias calculadas. Garantir que essa
 matriz fosse preenchida corretamente foi um desafio.
 
-Solução: Criamos uma função dedicada para preencher a matriz do grafo,
+- Solução: Criamos uma função dedicada para preencher a matriz do grafo,
 considerando as distâncias calculadas entre as cidades. Também definimos critérios claros para
 determinar quando duas cidades são vizinhas ou não com base na distância máxima
 especificada.
-    Essas soluções permitiram superar os desafios identificados durante o desenvolvimento
+- Essas soluções permitiram superar os desafios identificados durante o desenvolvimento
 do código e garantir a criação precisa do grafo matricial que representa as relações de
 vizinhança entre as cidades no RN. O projeto foi concluído com sucesso, permitindo análises
 geoespaciais valiosas.
