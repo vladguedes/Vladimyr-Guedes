@@ -96,7 +96,7 @@ cidades com mais vizinhos.
     Teste 4: Distância Necessária para Nenhuma Cidade Ser Vizinha
     - Resultado: É necessária uma distância de 0.15508 para que nenhuma cidade seja
     vizinha.
-    Os testes demonstraram que o código é eficaz na criação do grafo matricial das cidades
+Os testes demonstraram que o código é eficaz na criação do grafo matricial das cidades
 do RN com base em distâncias calculadas a partir das coordenadas GPS. A identificação da
 cidade com mais vizinhos e a análise das cidades sem vizinhos podem ser valiosas para tomadas
 de decisões urbanas e planejamento. Além disso, as métricas de distância fornecem informações
