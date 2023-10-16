@@ -110,7 +110,7 @@ Durante o desenvolvimento deste código, alguns desafios foram identificados e
 superados para garantir que o grafo matricial das cidades vizinhas no RN fosse criado com
 precisão. Abaixo, destacamos os principais desafios encontrados e as soluções adotadas:
 
-    1. Leitura de Dados a partir de Arquivos CSV:
+#### 1. Leitura de Dados a partir de Arquivos CSV:
  Um dos principais desafios foi ler as informações das cidades e suas coordenadas GPS
 a partir de arquivos CSV, que não estavam em um formato diretamente compatível com o
 Python. Para superar esse desafio, foi necessário analisar e tratar esses arquivos de maneira
@@ -120,7 +120,7 @@ Solução: Utilizamos a biblioteca `csv` do Python para fazer a leitura dos arqu
 CSV e transformar os dados em objetos Python. O código foi adaptado para interpretar as
 informações corretamente, convertendo strings em tipos de dados apropriados.
 
-    2. Cálculo de Distâncias Geoespaciais:
+#### 2. Cálculo de Distâncias Geoespaciais:
 Graph Search Página 5
      Calcular a distância entre duas cidades com base nas coordenadas GPS foi um desafio,
 pois envolveu cálculos matemáticos complexos para obter a distância em unidades
@@ -130,7 +130,7 @@ Solução: Implementamos uma função para calcular a distância geoespacial ent
 cidades usando a fórmula da distância euclidiana no plano cartesiano. Esta solução permitiu a
 conversão de coordenadas GPS em distâncias em unidades padronizadas para comparação.
 
-    3. Construção do Grafo Matricial:    
+#### 3. Construção do Grafo Matricial:    
 A construção do grafo matricial envolveu a criação de uma matriz que representasse
 as relações de vizinhança entre as cidades com base nas distâncias calculadas. Garantir que essa
 matriz fosse preenchida corretamente foi um desafio.
