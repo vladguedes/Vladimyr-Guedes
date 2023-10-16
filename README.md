@@ -90,13 +90,13 @@ cidades com mais vizinhos.
 - Teste 1: Identificação da Cidade com Mais Vizinhos
     -- Distância (D) = 0.05
     - Resultado: A cidade de Natal tem 7 vizinhos.
-    Teste 2: Identificação de Cidades Sem Vizinhos
+- Teste 2: Identificação de Cidades Sem Vizinhos
     - Distância (D) = 0.2
     - Resultado: Todas as cidades têm pelo menos um vizinho.
-    Teste 3: Distância Necessária para Todas as Cidades Serem Vizinhas
+- Teste 3: Distância Necessária para Todas as Cidades Serem Vizinhas
     - Resultado: É necessária uma distância de 0.04972 para que todas as cidades sejam
     vizinhas.
-    Teste 4: Distância Necessária para Nenhuma Cidade Ser Vizinha
+- Teste 4: Distância Necessária para Nenhuma Cidade Ser Vizinha
     - Resultado: É necessária uma distância de 0.15508 para que nenhuma cidade seja
     vizinha.
 Os testes demonstraram que o código é eficaz na criação do grafo matricial das cidades
