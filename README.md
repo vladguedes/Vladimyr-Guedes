@@ -28,6 +28,7 @@ vizinhos e determinar distâncias mínimas e máximas para que as cidades sejam 
 vizinhas.
 
 - Exemplo:
+  
     Para ilustrar o funcionamento do código, suponhamos que temos um conjunto de
 cidades no RN, cada uma com suas coordenadas GPS (latitude e longitude). Queremos
 determinar quais cidades são vizinhas considerando que a distância máxima para a vizinhança
