@@ -158,16 +158,19 @@ o Abra o seu Visual Studio Code (caso não tenha instalado, faça download no li
 o Com o VsCode aberto, vá na opção ‘Terminal’ e ‘New Terminal’, com o
 terminal aberto, configure o Git usando os seguintes comandos:
 Graph Search Página 6
+
     ▪ git config --global user.name “seu nome aqui”
     ▪ git config --global user.email “seu email aqui”
     
 o Após o Git esta configurado, execute o seguinte comando para clonar o
 repositório:
+
     ▪ git clone https://github.com/caiomoises/collisionHash.git
     
 o Depois disso, você terá acesso ao código fonte.
 
 o Para executá-lo, abra novamente o terminal e digite os seguintes comandos:
+
     ▪ gcc main.c -o main
     ▪ ./main
     
