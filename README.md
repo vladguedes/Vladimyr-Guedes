@@ -87,8 +87,8 @@ distância (D) para determinar as cidades vizinhas e aplicaram métricas para id
 cidades com mais vizinhos.
     Resultados dos Testes:
 
-    Teste 1: Identificação da Cidade com Mais Vizinhos
-    - Distância (D) = 0.05
+- Teste 1: Identificação da Cidade com Mais Vizinhos
+    -- Distância (D) = 0.05
     - Resultado: A cidade de Natal tem 7 vizinhos.
     Teste 2: Identificação de Cidades Sem Vizinhos
     - Distância (D) = 0.2
