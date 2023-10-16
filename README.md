@@ -140,7 +140,7 @@ matriz fosse preenchida corretamente foi um desafio.
 considerando as distâncias calculadas entre as cidades. Também definimos critérios claros para
 determinar quando duas cidades são vizinhas ou não com base na distância máxima
 especificada.
-- Essas soluções permitiram superar os desafios identificados durante o desenvolvimento
+Essas soluções permitiram superar os desafios identificados durante o desenvolvimento
 do código e garantir a criação precisa do grafo matricial que representa as relações de
 vizinhança entre as cidades no RN. O projeto foi concluído com sucesso, permitindo análises
 geoespaciais valiosas.
