@@ -63,16 +63,16 @@ com base nas coordenadas geográficas. Depois, o código realiza várias anális
 cidades com mais vizinhos, cidades sem vizinhos e métricas de distância.
 
 ## FUNÇÕES EM PYTHON
-    - ‘alocaMatriz’: Aloca uma matriz para representar o grafo.
-    - ‘RN’: Retorna um subconjunto de cidades pertencentes ao Rio Grande do Norte.
-    - ‘criarGrafo’: Cria uma matriz para representar o grafo.
-    - ‘calculaDistancia’: Calcula a distância entre as cidades e preenche a matriz do grafo.
-    - ‘printCidadeComMaisVizinhos’: Imprime a cidade do RN com mais vizinhos.
-    - ‘printCidadeSemVizinhos’: Imprime cidades do RN que não têm vizinhos.
-    - ‘printDistTodasVizinhas’: Imprime a distância necessária para que todas as cidades sejam vizinhas.
-    - ‘printDistMinTodasVizinhas’: Imprime a distância necessária para que nenhuma cidade seja vizinha.
-    - ‘printDistMaxNenhumVizinhas’: Imprime a distância necessária para que todas as cidades sejam vizinhas.
-    - ‘printGrafoMatricial’: Imprime uma representação visual do grafo matricial.
+- ‘alocaMatriz’: Aloca uma matriz para representar o grafo.
+- ‘RN’: Retorna um subconjunto de cidades pertencentes ao Rio Grande do Norte.
+- ‘criarGrafo’: Cria uma matriz para representar o grafo.
+- ‘calculaDistancia’: Calcula a distância entre as cidades e preenche a matriz do grafo.
+- ‘printCidadeComMaisVizinhos’: Imprime a cidade do RN com mais vizinhos.
+- ‘printCidadeSemVizinhos’: Imprime cidades do RN que não têm vizinhos.
+- ‘printDistTodasVizinhas’: Imprime a distância necessária para que todas as cidades sejam vizinhas.
+- ‘printDistMinTodasVizinhas’: Imprime a distância necessária para que nenhuma cidade seja vizinha.
+- ‘printDistMaxNenhumVizinhas’: Imprime a distância necessária para que todas as cidades sejam vizinhas.
+- ‘printGrafoMatricial’: Imprime uma representação visual do grafo matricial.
 
 ## LOGICA PRINCIPAL
 A lógica principal envolve a alocação de uma matriz, o cálculo de distâncias, a
